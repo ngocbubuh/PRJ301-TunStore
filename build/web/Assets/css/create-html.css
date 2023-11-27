@@ -1,0 +1,78 @@
+body {
+    background-image: url("https://images3.alphacoders.com/101/1011835.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .container {
+    text-align: center;
+    margin-top: 6%;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  
+  .Create_Form {
+    display: inline-block;
+    text-align: left;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+    width: 40%; /* Adjust the width as desired */
+    margin: 0 auto; /* Center the login form horizontally */
+  }
+  
+  .Create_Form_Row {
+    margin-bottom: 15px;
+  }
+  
+  p {
+    margin: 0;
+    color: #333;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    display: inline-flex; /* Set buttons to display inline */
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 0px 5px; /* Add some spacing between the buttons */
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #45a049;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+    margin-top: 20px;
+    display: inline-block;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: #777;
+  }
+
+  p {
+    margin-bottom: 5px;
+  }

@@ -1,0 +1,20 @@
+.nav-item {
+    padding: 0px 5px;
+}
+
+.shopping-button {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #db1313;
+  width: 200px; /* Adjust the width as desired */
+  margin: 10px auto; /* Center the login form horizontally */
+  text-decoration: none;
+} 
+
+.shopping-button:hover {
+  background-color: #962f2f;
+  transition: 1s;
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Order Invoice</title>
+    <style>
+        .line {
+            border-top: 2px solid black;
+            margin: 20px 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f2f2f2;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+            background-color: white;
+            padding: 10px;
+        }
+
+        .title {
+            margin-bottom: 20px;
+        }
+
+        .UserInfo, .paymentMethod, .OrderInfo {
+            margin-bottom: 20px;
+        }
+
+        .UserInfo h4, .paymentMethod h4, .OrderInfo h4 {
+            margin-bottom: 10px;
+        }
+
+        .Total {
+            text-align: left;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        img {
+            max-width: 200px;
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="https://cdn.discordapp.com/attachments/1090646946127036508/1125092227857784964/Tun_Store.png" alt="Tủn Store Logo" style="width: 200px;">
+    </div>
+    <div class="title">
+        <p>Greetings <span><!-- Code --></span></p>
+        <p>Thank you for your ordering at Tủn Store!</p>
+        <p>Your order <span><!-- Code --></span> has been successfully paid on <span><!-- Code --></span></p>
+    </div>
+    <div class="line"></div>
+    <div class="content">
+        <div class="UserInfo">
+            <h4>User's Information</h4>
+            <p>Full Name: <span><!-- Code --></span></p>
+            <p>Email: <span><!-- Code --></span></p>
+        </div>
+        <div class="paymentMethod">
+            <h4>Payment Method</h4>
+            <p><!-- Code --></p>
+        </div>
+        <div class="OrderInfo">
+            <h4>Order's Information</h4>
+            <p>Invoice: <span><!-- Code --></span></p>
+            <p>Order date: <span><!-- Code --></span></p>
+        </div>
+        <div class="line"></div>
+        <div class="Total">
+            <p>Total</p>
+            <p><span><!-- Code --></span></p>
+        </div>
+    </div>
+</body>
+</html>
